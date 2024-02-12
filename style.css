@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: medium !important;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    background-color: rgba(22, 22, 23, .8);
+    color: white;
+    gap: 3%;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    font-size: small;
+    font-weight: lighter;
+    position: sticky;
+    top: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 1;
+}
+
+ul li:hover {
+    text-decoration: underline !important;
+}
+
+.main {
+    background-image: url('https://www.apple.com/v/home/bk/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large.jpg');
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    justify-content: end;
+}
+
+a {
+    font-size: large;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.main3 {
+    background-image: url('https://www.apple.com/v/home/bk/images/heroes/apple-music-superbowl/hero_superbowl__fb7i8fog8iqi_large.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 15px;
+}
+
+button {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 30px !important;
+    border: none;
+    font-size: medium !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card1 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large_2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.card2 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.card3 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.card4 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.card5 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.card5a img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: bottom;
+}
+
+.card6 {
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    border: none !important;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
