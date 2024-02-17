@@ -1,174 +1,233 @@
 * {
-    margin: 0;
-    padding: 0;
-}
-
-h3 {
-    font-size: medium !important;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    background-color: rgba(22, 22, 23, .8);
-    color: white;
-    gap: 3%;
-    justify-content: center;
-    height: 40px;
-    align-items: center;
-    font-size: small;
-    font-weight: lighter;
-    position: sticky;
-    top: 0;
-    margin: 0 !important;
-    padding: 0 !important;
-    z-index: 1;
-}
-
-ul li:hover {
-    text-decoration: underline !important;
-}
-
-.main {
-    background-image: url('https://www.apple.com/v/home/bk/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large.jpg');
-    width: 100vw;
-    height: 70vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.main2 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 90%;
-    justify-content: end;
-}
-
-a {
-    font-size: large;
-    text-decoration: none !important;
-}
-
-a:hover {
-    text-decoration: underline !important;
-}
-
-.main3 {
-    background-image: url('https://www.apple.com/v/home/bk/images/heroes/apple-music-superbowl/hero_superbowl__fb7i8fog8iqi_large.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 70vh;
-
-}
-
-.main4 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    padding-top: 15px;
-}
-
-button {
-    background-color: white;
-    padding: 15px 25px;
-    border-radius: 30px !important;
-    border: none;
-    font-size: medium !important;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
+    background-color: aliceblue;
 }
 
-.card1 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large_2x.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
+nav {
+    padding-top: .3%;
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0.708);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#carouselExampleSlidesOnly {
+    height: 70%;
+    width: 100%;
+}
+
+.page2 {
+    margin-top: 5%;
+}
+
+.row {
+    margin: 0% 4%;
+}
+
+.card-body a {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    gap: 10px;
     display: flex;
     align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+
 }
 
-.card2 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg');
-    background-size: cover;
+.card-body a:hover {
+    color: orangered;
+}
+
+.page3 {
+    margin-top: 5%;
+}
+
+.page3 h1 {
+    margin-bottom: 2%;
+}
+
+.card-group {
+    margin: 0px 4%;
+    gap: 2%;
+}
+
+.page4 {
+    margin-top: 5%;
+    background-image: url(https://www.coca-colacompany.com/content/dam/company/us/en/PACS%20Singapore%20Employees%202021-019-cut2.jpg/width1960.jpg);
+    background-position: 90%;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
-    display: flex;
-    align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+    background-size: 50%;
+    height: 100vh;
+    width: 100vw;
 }
 
-.card3 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg');
-    background-size: cover;
+.p4text {
+    margin-left: 10%;
+    padding-top: 40px;
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
+}
+
+.p4text button {
+    width: 60%;
+    padding: 1%;
+    border-radius: 40px;
+    border-color: black;
+    margin-top: 40%;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.p4text button:hover {
+    color: gray;
+    border-color: gray;
+}
+
+.page5 {
+    margin-top: 5%;
+    background-image: url(https://www.coca-colacompany.com/content/dam/company/us/en/Our-Company-1.5MB-cut2.jpg/width1960.jpg);
+    background-position: 10%;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
-    display: flex;
-    align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+    background-size: 50%;
+    height: 100vh;
+    width: 100vw;
 }
 
-.card4 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
-    display: flex;
-    align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+.p5text {
+    margin-left: 50%;
+    padding-top: 40px;
+    width: 40%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    border-radius: 20px;
 }
 
-.card5 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
-    display: flex;
-    align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+.p5text button {
+    width: 60%;
+    padding: 1%;
+    border-radius: 40px;
+    border-color: black;
+    margin-top: 15%;
+    background-color: transparent;
+    font-weight: bold;
 }
 
-.card5a img {
+.p5text button:hover {
+    color: gray;
+    border-color: gray;
+}
+
+.cardi {
+    background-color: rgb(255, 255, 255);
+    /* width: 20%;
+    height: 100%; */
+    padding: 3%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cardi:hover {
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px -5px rgb(46, 46, 46);
+}
+
+.cards1 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: bottom;
+    justify-content: space-evenly;
+
 }
 
-.card6 {
-    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh !important;
+.cards2 {
+    margin-top: 2%;
     display: flex;
-    align-items: center;
-    color: white !important;
-    border: none !important;
-    /* box-shadow: 2px 2px 2px black; */
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
+.cards3 {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.page6 button {
+    width: 25%;
+    padding: 0.5%;
+    border-radius: 40px;
+    border-color: black;
+    margin: 5% 0px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.page6 button:hover {
+    transition: .6s;
+    box-shadow: 10px 10px 10px black;
+    color: gray;
+    border-color: gray;
+}
+
+#end {
+    text-decoration: none;
+    color: white !important;
+}
+
+.btn:hover {
+    transition: all .4s;
+    box-shadow: 2px 2px 10px white;
+    border: 2px solid white;
+}
+
+footer {
+    /* display: flex; */
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.footerimg{
+    position: relative;
+    right: 40%;
+
+}
+
+/* <--- Responsive ---> */
+
+@media screen and (max-width: 576px) {
+    ul {
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-inner {
+        margin-top: 60%;
+        /* max-width: 98vw; */
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+}
